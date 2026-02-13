@@ -1,0 +1,1332 @@
+body {
+  background-color: #f9f9e5;
+  width: 100%;
+}
+
+/* The CSS for the main page starts here */
+
+#header {
+  background: linear-gradient(to bottom,#939302 0%, #b48a36 100%); /* Use of gradient */
+  height: 90px;
+  width: 100%;
+}
+
+nav {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 2%;
+}
+
+nav a {
+  color: rgb(242, 240, 237);
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+nav a:hover {
+  /* Use of user action pseudo classes */
+  cursor: pointer;
+  color: rgb(32, 112, 166);
+}
+
+#personal {
+  margin-top: 10%;
+  margin-left: 20px;
+  border-radius: 50%;
+  height: 400px;
+  box-shadow: 5px 5px 15px gray; /* Use of shadows */
+  border: 2px solid rgb(17, 17, 16); /* Use of borders */
+}
+
+#box1 {
+  border-radius: 20px; /* Use of round corners */
+  margin-left: 2%;
+  margin-top: 4%;
+  width: 1000px;
+  height: 600px;
+  background-color: hsla(69, 100%, 90%, 0.3); /* Use of transparent color */
+  box-shadow: 2px 2px 10px gray; /* Use of shadows */
+}
+
+#box1:hover {
+  box-shadow: 5px 5px 15px rgb(49, 49, 49);
+  cursor: pointer;
+}
+
+#aside {
+  float: right;
+  background-color: hsla(69, 100%, 90%, 0.3); /* Use of transparent color */
+  box-shadow: 5px 5px 15px gray;
+  border-radius: 20px;
+  width: 300px;
+  height: 600px;
+  margin-top: -600px;
+  margin-right: 20px;
+}
+
+#aside:hover {
+  box-shadow: 5px 5px 15px rgb(49, 49, 49);
+  cursor: pointer;
+}
+
+#social {
+  color: rgb(24, 59, 92);
+  font-size: 25px;
+  text-align: center;
+}
+
+#insta {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 19px;
+}
+
+#insta_link {
+  position: absolute;
+  text-decoration: none;
+  margin-left: 90px;
+  margin-top: 65px;
+  font-size: 20px;
+  color: rgb(114, 21, 114);
+}
+
+#insta_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#x {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  margin-top: 135px;
+  margin-left: 21px;
+}
+
+#x_link {
+  position: absolute;
+  text-decoration: none;
+  margin-left: 90px;
+  margin-top: 150px;
+  font-size: 20px;
+  color: rgb(114, 21, 114);
+}
+
+#x_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#linkedin {
+  width: 50px;
+  height: 50px;
+  margin-top: 220px;
+  margin-left: 18px;
+}
+
+#linkedin_link {
+  position: absolute;
+  text-decoration: none;
+  margin-left: 25px;
+  margin-top: 240px;
+  font-size: 20px;
+  color: rgb(114, 21, 114);
+}
+
+#linkedin_link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Use of google fonts */
+#details {
+  font-family: "Just Another Hand", cursive;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(23, 87, 103);
+  margin-top: -350px;
+  margin-left: 45%;
+}
+
+.additional_info {
+  font-size: 20px;
+  margin-left: 45%;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(32, 112, 166);
+  font-weight: bold;
+}
+
+#footer {
+  position: relative;
+  background-color: white;
+  margin-top: 130px;
+  width: 100%;
+  height: 180px;
+}
+
+.details2 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 7%;
+  color: rgb(95, 95, 9);
+}
+
+.details3 {
+  font-size: 20px;
+  margin-top: 2%;
+  margin-left: 7%;
+  color: rgb(95, 95, 9);
+}
+
+.nav_elements {
+  color: rgb(114, 21, 114);
+}
+
+#footer_nav {
+  margin-top: -5%;
+}
+
+/* The CSS for the main page ends here */
+
+/* The CSS for the about page start here */
+
+#me {
+  font-size: 50px;
+  text-align: center;
+  color: rgb(101, 102, 80);
+  text-decoration: underline;
+}
+#me:hover {
+  transform: scale(1.1); /* Use of transform */
+  color: rgb(108, 144, 155);
+}
+
+#about_photo {
+  border-radius: 50%;
+  height: 300px;
+  margin-left: 39%;
+  margin-top: 2%;
+  box-shadow: 5px 5px 15px gray;
+  border: 2px solid rgb(17, 17, 16);
+}
+
+#about_photo:hover {
+  transform: scale(1.1); /* Use of transform */
+  border: 2px solid rgb(108, 144, 155);
+}
+
+#about_info {
+  height: 30%;
+  width: 30%;
+  margin-top: -20%;
+  margin-left: 2%;
+}
+
+#my_name {
+  font-family: "Just Another Hand", cursive;
+  font-size: 40px;
+  color: rgb(45, 76, 99);
+}
+
+#my_info {
+  font-size: 18px;
+  color: rgb(84, 84, 29);
+}
+
+.social_icons {
+  margin-top: 10%;
+}
+
+#about_x {
+  height: 44px;
+}
+
+#about_linkedin:hover {
+  transform: scale(1.1);
+}
+
+#about_insta:hover {
+  transform: scale(1.1);
+}
+
+#about_x:hover {
+  transform: scale(1.1);
+}
+
+.skill_info {
+  height: 30%;
+  width: 30%;
+  margin-top: -23%;
+  margin-left: 68%;
+}
+
+#my_skills {
+  font-family: "Just Another Hand", cursive;
+  font-size: 40px;
+  color: rgb(45, 76, 99);
+}
+
+#my_description {
+  font-size: 18px;
+  color: rgb(84, 84, 29);
+}
+
+.skill_info .bar {
+  margin: 20px 0;
+}
+
+.skill_info .bar .info {
+  margin-bottom: 10px;
+}
+
+.skill_info .bar .info span {
+  letter-spacing: 1px;
+  text-transform: uppercase; /* Use of text effects */
+}
+
+.skill_info .bar .progress-bar {
+  width: 100%;
+  height: 15px;
+  background-color: rgb(205, 205, 161);
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.skill_info .bar .progress-bar span {
+  position: absolute;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(93, 24, 24);
+  transform: scale(0);
+  animation: animate 1s forwards;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.skill_info .bar .progress-bar span.java {
+  /* Use of specificity consideration */
+  width: 78%;
+}
+
+.skill_info .bar .progress-bar span.javaScript {
+  width: 60%;
+}
+
+.skill_info .bar .progress-bar span.python {
+  width: 70%;
+}
+
+.skill_info .bar .progress-bar span.html {
+  width: 80%;
+}
+
+.skill_info .bar .progress-bar span.css {
+  width: 75%;
+}
+
+/* Use of animations */
+@keyframes animate {
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* The CSS for the about page ends here */
+
+/* The CSS for the personal projects page starts here */
+
+#h2_personal {
+  text-align: center;
+  font-family: "Just Another Hand", cursive;
+  font-size: 60px;
+  font-weight: normal;
+  color: rgb(28, 90, 118);
+  text-decoration: underline;
+}
+
+#h2_personal + p {
+  /* Use of relational selector */
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+  color: rgb(128, 25, 25);
+}
+
+.projects_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.project1 {
+  border: 2px solid #cdccad;
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px gray;
+  background-color: #f4f3d9;
+}
+
+#h3_project1 {
+  text-align: center;
+  color: rgb(19, 88, 118);
+  font-size: 25px;
+}
+
+#date_project1 {
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+
+#p_project1 {
+  max-width: auto;
+  padding: 30px;
+  font-size: 20px;
+  color: rgb(128, 25, 25);
+}
+
+#ocean_photo1 {
+  height: 150px;
+  padding-left: 30px;
+}
+
+#ocean_photo2 {
+  height: 150px;
+  padding-left: 30px;
+}
+
+#members {
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+#list > li {
+  /* Use of child combinator */
+  font-style: italic;
+}
+
+.project2 {
+  border: 2px solid #cdccad;
+  width: 45%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px gray;
+  background-color: #f4f3d9;
+}
+
+#h3_project2 {
+  text-align: center;
+  color: rgb(19, 88, 118);
+  font-size: 25px;
+}
+
+#date_project2 {
+  display: block;
+  text-align: center;
+  font-style: italic;
+}
+#p_project2 {
+  max-width: auto;
+  padding: 30px;
+  font-size: 20px;
+  color: rgb(128, 25, 25);
+}
+
+#car_photo1 {
+  height: 150px;
+  padding-left: 30px;
+}
+
+#car_photo2 {
+  height: 150px;
+  padding-left: 30px;
+}
+
+#car {
+  padding-left: 30px;
+  font-weight: bold;
+}
+
+#list2 li:first-child::after {
+  /* Use of structural selectors (:first-child) */
+  content: "🤖";
+  margin-left: 5px;
+}
+
+#list2 li:nth-child(2)::after {
+  /* Use of nth pseudo classes) */
+  content: "📟";
+  margin-left: 5px;
+}
+
+#list2 li:nth-child(3)::after {
+  content: "💻🔌";
+  margin-left: 5px;
+}
+
+#list2 li:nth-child(4)::after {
+  content: "🛠️";
+  margin-left: 5px;
+}
+
+/* The CSS for the personal projects page ends here */
+
+/* The CSS for the contact page starts here */
+
+#form {
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #cdccad;
+  border-radius: 10px;
+  background-color: #f5f4cd;
+  box-shadow: 5px 5px 15px gray;
+}
+
+#form input[type="text"]:invalid:not(:placeholder-shown) {
+  /* Use of attribute selectors, validity pseudo classes and negation pseudo classes */
+  border: 2px solid rgb(232, 139, 139);
+}
+
+#form input[type="email"]:invalid:not(:placeholder-shown) {
+  border: 2px solid rgb(232, 139, 139);
+}
+
+#form input[type="text"]:valid {
+  border: 2px solid rgb(114, 175, 114);
+}
+
+#form input[type="email"]:valid {
+  border: 2px solid rgb(114, 175, 114);
+}
+
+#name_input {
+  width: 90%;
+}
+
+#email {
+  width: 90%;
+}
+
+#reset {
+  background-color: rgb(232, 139, 139);
+  border-radius: 10px;
+  width: 15%;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Use of transitions */
+}
+
+#reset:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgb(231, 180, 171);
+}
+
+#reset:active {
+  background-color: red;
+}
+
+#submit {
+  background-color: rgb(160, 230, 160);
+  border-radius: 10px;
+  width: 15%;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Use of transitions */
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: rgb(217, 247, 199);
+  transform: scale(1.1);
+}
+
+#submit:active {
+  background-color: green;
+}
+
+#form2 {
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #cdccad;
+  border-radius: 10px;
+  background-color: #f5f4cd;
+  box-shadow: 5px 5px 15px gray;
+}
+
+#form2 input[type="text"]:invalid:not(:placeholder-shown) {
+  /* Use of attribute selector, validity pseudo classes and negation pseudo classes */
+  border: 2px solid rgb(232, 139, 139);
+}
+
+#form2 input[type="email"]:invalid:not(:placeholder-shown) {
+  border: 2px solid rgb(232, 139, 139);
+}
+
+#form2 input[type="text"]:valid {
+  /* Use of attribute selectors */
+  border: 2px solid rgb(114, 175, 114);
+}
+
+#form2 input[type="email"]:valid {
+  border: 2px solid rgb(114, 175, 114);
+}
+
+#name {
+  width: 90%;
+}
+
+#email2 {
+  width: 90%;
+}
+
+.h2_1::before {
+  /* Use of pseudo element with generated content */
+  content: "🔔";
+  margin-right: 5px;
+}
+
+.h2_2::before {
+  content: "📩";
+  margin-right: 5px;
+}
+
+/* Use of media queries for devices with max width: 500 */
+
+/* Use of media queries for the main page for 500 px */
+
+@media (max-width: 500px) {
+  nav a {
+    color: rgb(242, 240, 237);
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  nav {
+    margin-left: -14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav a:active {
+    color: rgb(32, 112, 166);
+  }
+
+  #box1 {
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    height: auto;
+    background-color: hsla(69, 100%, 90%, 0.3); /* Use of transparent color */
+    box-shadow: 2px 2px 10px gray; /* Use of shadows */
+  }
+
+  #personal {
+    margin-top: 5%;
+    margin-left: 70px;
+    border-radius: 50%;
+    height: 200px;
+    box-shadow: 5px 5px 15px gray; /* Use of shadows */
+    border: 2px solid rgb(17, 17, 16);
+  }
+
+  #details {
+    font-family: "Just Another Hand", cursive;
+    font-style: normal;
+    font-size: 35px;
+    color: rgb(23, 87, 103);
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .additional_info {
+    margin-top: -3%;
+    font-size: 20px;
+    margin-left: 5%;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(32, 112, 166);
+    font-weight: bold;
+  }
+
+  #aside {
+    background-color: hsla(69, 100%, 90%, 0.3); /* Use of transparent color */
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    height: auto;
+    float: none;
+  }
+
+  #footer {
+    background-color: white;
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+  }
+
+  #header {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #insta {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+    margin-left: 19px;
+  }
+
+  #insta_link {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 2px;
+    font-size: 18px;
+    color: rgb(114, 21, 114);
+  }
+
+  #x {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 18px;
+  }
+
+  #x_link {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: rgb(114, 21, 114);
+  }
+
+  #linkedin {
+    width: 30px;
+    height: 30px;
+    margin-top: 88px;
+    margin-left: 18px;
+  }
+
+  #linkedin_link {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 21px;
+    margin-top: 98px;
+    font-size: 18px;
+    color: rgb(114, 21, 114);
+  }
+
+  .details2 {
+    font-size: 18px;
+    margin-top: 3%;
+    margin-left: 20%;
+    color: rgb(95, 95, 9);
+  }
+
+  #footer_nav {
+    margin-top: 2%;
+  }
+
+  /* End of use of media queries for the main page for 500px */
+
+  /* Use of media queries for the about page for 500px */
+
+  #about_photo {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #about_info {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  #my_name {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #my_info {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .social_icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  #about_insta {
+    width: 30px;
+    height: 30px;
+  }
+
+  #about_x {
+    width: 30px;
+    height: 30px;
+  }
+
+  #about_linkedin {
+    width: 30px;
+    height: 30px;
+  }
+
+  .skill_info {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  #my_skills {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #my_description {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .bar .info span {
+    font-size: 12px;
+  }
+
+  .bar .progress-bar {
+    height: 12px;
+  }
+
+  .bar .progress-bar span {
+    font-size: 10px;
+    padding-right: 3px;
+  }
+
+  #footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .details2 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .details3 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  /* End of media queries for the about page for 500 px */
+
+  /* Use of media queries for the personal projects page for 500px */
+
+  #h2_personal {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #h2_personal + p {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  #h2_personal + p {
+    font-size: 20px;
+  }
+
+  .projects_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .project1 {
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+
+  .project2 {
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+
+  #h3_project1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #h3_project2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #date_project1 {
+    font-size: 16px;
+  }
+
+  #date_project2 {
+    font-size: 16px;
+  }
+
+  #p_project1 {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  #p_project2 {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  /* Project images */
+  #ocean_photo1 {
+    height: 120px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  #ocean_photo2 {
+    height: 120px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  #car_photo1 {
+    height: 120px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  #car_photo2 {
+    height: 120px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  /* Lists */
+  #list > li,
+  #list2 li {
+    font-size: 14px;
+  }
+
+  /* Emoji adjustments for small screens */
+  #list2 li:first-child::after {
+    margin-left: 3px;
+  }
+
+  #list2 li:nth-child(2)::after {
+    margin-left: 3px;
+  }
+  #list2 li:nth-child(3)::after {
+    margin-left: 3px;
+  }
+  #list2 li:nth-child(4)::after {
+    margin-left: 3px;
+  }
+
+  .details2 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .details3 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .nav_elements {
+    font-size: 16px;
+  }
+
+  /* End of media queries for the personal projects page for 500px */
+
+  /* Use of media queries for the contact page for 500px */
+
+  #form {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  #form2 {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  #name_input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #name {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #email {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #email2 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #message {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #submit {
+    width: 45%;
+    margin: 10px 2%;
+    box-sizing: border-box;
+  }
+
+  #reset {
+    width: 45%;
+    margin: 10px 2%;
+    box-sizing: border-box;
+  }
+
+  .h2_1::before {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .h2_2::before {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* End of media queries for the contact page for 500px */
+
+/* End of media queries for devices with max-width: 500px */
+
+/* Use of media queries for devices with max width: 501px and min width: 1200px */
+
+/* Use of media queries for main page for devices with max width: 501px and min width: 12200px */
+
+@media (min-width: 501px) and (max-width: 1200px) {
+  #header {
+    width: 100%;
+  }
+
+  nav {
+    margin: 10px auto;
+    width: 90%;
+    text-align: center;
+    position: relative;
+  }
+
+  nav a {
+    color: rgb(242, 240, 237);
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: “Times New Roman”, Times, serif;
+  }
+
+  nav a:hover {
+    color: rgb(32, 112, 166);
+  }
+
+  #box1 {
+    width: 80%;
+    max-width: 900px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: hsla(69, 100%, 90%, 0.3);
+    box-shadow: 2px 2px 10px gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #personal {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px gray;
+    border: 2px solid rgb(17, 17, 16);
+  }
+
+  #details {
+    font-family: "Just Another Hand", cursive;
+    font-size: 30px;
+    color: rgb(23, 87, 103);
+    margin: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .additional_info {
+    font-size: 18px;
+    font-family: “Times New Roman”, Times, serif;
+    color: rgb(32, 112, 166);
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  #aside {
+    width: 80%;
+    max-width: 80%;
+    margin: 20px auto;
+    float: none;
+    height: auto;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px gray;
+    background-color: hsla(69, 100%, 90%, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  #social {
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    color: rgb(24, 59, 92);
+  }
+
+  #icons {
+    display: inline;
+  }
+
+  #insta {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+  }
+
+  #x {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+  }
+  #linkedin {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    position: relative;
+  }
+
+  #insta_link {
+    position: relative;
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(114, 21, 114);
+    text-decoration: none;
+  }
+  #x_link {
+    position: relative;
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(114, 21, 114);
+    text-decoration: none;
+  }
+  #linkedin_link {
+    position: relative;
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(114, 21, 114);
+    text-decoration: none;
+  }
+
+  #insta_link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #x_link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  #linkedin_link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  #footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .details2 {
+    font-size: 18px;
+    margin: 5px 0;
+    color: rgb(95, 95, 9);
+  }
+
+  #footer_nav {
+    margin-top: 10px;
+  }
+
+  .nav_elements {
+    color: rgb(114, 21, 114);
+    margin: 0 10px;
+    text-decoration: none;
+  }
+
+  .nav_elements:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* End of media queries for the main page for devices with max width: 501px and min width: 1200px*/
+
+  /* Use of media queries for the about page for devices with max width: 501px and min width: 1200px*/
+
+  #about_photo {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    display: block;
+  }
+
+  #about_info {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  #my_name {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #my_info {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .social_icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  #about_insta {
+    width: 30px;
+    height: 30px;
+  }
+
+  #about_x {
+    width: 30px;
+    height: 30px;
+  }
+
+  #about_linkedin {
+    width: 30px;
+    height: 30px;
+  }
+
+  .skill_info {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  #my_skills {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  #my_description {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .bar .info span {
+    font-size: 12px;
+  }
+
+  .bar .progress-bar {
+    height: 12px;
+  }
+
+  .bar .progress-bar span {
+    font-size: 10px;
+    padding-right: 3px;
+  }
+
+  #footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+  .details2 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .details3 {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+}
+/* End of media queries for the about page for devices with max width: 501px and min width: 1200px*/
+
+/* End of media queries for devices with max width: 501 px and min width: 1200px */
